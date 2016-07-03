@@ -43,7 +43,7 @@ if __name__=="__main__":
     # get most recent tweets of reposting account
 
     ebooks_tweets = api.user_timeline(
-        screen_name="tef_ebooks",
+        screen_name="carols10cents",
         count=200,
         trim_user=True,
         exclude_replies=False,
